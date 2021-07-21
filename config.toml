@@ -1,0 +1,21 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "docsy"
+
+
+[menu]
+
+  [[menu.main]]
+     identifier = "documentation"
+     name = "Documentation"
+     pre = "<i class='fa fa-book'></i>"
+     url = "/documentation/"
+     weight = 20
+     
+[params]
+#Enable offline search with Lunr.js
+algolia_docsearch = false
+offlineSearch = true
+offlineSearchSummaryLength = 200
+offlineSearchMaxResults = 25
